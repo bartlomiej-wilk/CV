@@ -16,10 +16,10 @@
     <body>
         <div class="wrapper">
             <main>
-                <div class="main-description">
+                <div>
                     <h2>Front-End Developer</h2>
                     <h1>Wilk Bartłomiej</h1>
-                    <p class="description">
+                    <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                         sed do eiusmod tempor incididunt ut labore et dolore
                         magna aliqua. Quis ipsum suspendisse ultrices gravida.
@@ -101,40 +101,52 @@
             </main>
             <aside>
                 <img
+                    class="cv-photo"
                     src="./images/photo.jpg"
                     width="370"
                     height="354"
                     alt="photo John Doe"
                 />
-                <div>
-                    <h2>Contacts</h2>
-                    <p>
-                        <a href="tel:+7 777 777 77 77">C: +7 777 777 77 77 </a
+                <div class="contact-block">
+                    <h2 class="headers-secondary">Contacts</h2>
+                    <p class="contact-links">
+                        <a class="contact-links" href="tel:+7 777 777 77 77"
+                            ><span class="bold">C:</span> +7 777 777 77 77 </a
                         ><br />
-                        <a href="mailto:johndoe@gmail.com"
-                            >E: johndoe@gmail.com
+                        <a class="contact-links" href="mailto:johndoe@gmail.com"
+                            ><span class="bold">E:</span> johndoe@gmail.com
                         </a>
                     </p>
                 </div>
-                <div>
-                    <h2 class="description">Tech Skills</h2>
-                    <ul>
-                        <li>HTML5</li>
-                        <li>CSS3</li>
-                        <li>GIT</li>
-                        <li>WebPack</li>
-                        <li>JavaScript</li>
-                        <li>React.js</li>
-                        <li>Node.js</li>
+                <div class="tech-skills-block">
+                    <h2 class="headers-secondary">Tech Skills</h2>
+                    <ul class="list-secondary">
+                        <li><span class="list-secondary-item">HTML5</span></li>
+                        <li><span class="list-secondary-item">CSS3</span></li>
+                        <li><span class="list-secondary-item">GIT</span></li>
+                        <li>
+                            <span class="list-secondary-item">WebPack</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">JavaScript</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">React.js</span>
+                        </li>
+                        <li>
+                            <span class="list-secondary-item">Node.js</span>
+                        </li>
                     </ul>
                 </div>
-                <div>
-                    <h2 class="description">Soft Skills</h2>
-                    <ul>
-                        <li>Scrum</li>
-                        <li>Agile</li>
-                        <li>GTD</li>
-                        <li>Teamwork</li>
+                <div class="soft-skills-block">
+                    <h2 class="headers-secondary">Soft Skills</h2>
+                    <ul class="list-secondary">
+                        <li><span class="list-secondary-item">Scrum</span></li>
+                        <li><span class="list-secondary-item">Agile</span></li>
+                        <li><span class="list-secondary-item">GTD</span></li>
+                        <li>
+                            <span class="list-secondary-item">Teamwork</span>
+                        </li>
                     </ul>
                 </div>
             </aside>
