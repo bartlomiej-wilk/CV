@@ -164,7 +164,8 @@ h1 {
 }
 
 .education {
-    width: 242px;
+    width: 525px;
+    margin-bottom: 24px;
 }
 
 .study-field {
